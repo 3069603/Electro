@@ -6,7 +6,7 @@ body{
     font-size: 14px;
 }
 .container{
-    max-width: 1440px;
+    max-width: 1230px;
     padding: 0 30px;
     margin: 0 auto;
 }
@@ -21,7 +21,7 @@ body{
     border-radius: 30px;
     font-size: 18px;
     color: black;
-    transition: background-color 0,5s ease-in, top 0,5s ease-in;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
 .btn:hover, .btn:focus{
     background-color: grey;
@@ -112,7 +112,6 @@ body{
 .service-card{
     flex: 1 1 0;
     min-width: 315px;
-
 }
 .service-card-simbol{
     font-size: 40px;
@@ -185,5 +184,33 @@ body{
     -webkit-text-stroke-color: white;
 }
 .contacts-footer{
+    color: yellow;
+}
+/* button "up" - initially hide */
+.scroll-to-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+.btn1{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+.btn1:hover, .btn1:focus{
+    background-color: black;
+    color: yellow;
+}
+.btn1:active{
+    position: relative;
+    top: 1px;
+    background-color: black;
     color: yellow;
 }
