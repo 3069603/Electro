@@ -10,17 +10,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<header class="header">
+<header class="header" id="header">
   <div class="container">
     <!-- header-nav -->
     <div class="header-nav">
     <!-- logo -->
-      <a href="#header" class="logo">KOsTik</a>
+      <a href="#!" class="logo">KOsTik</a>
     <!-- navigation -->
       <nav id="nav" class="nav">
         <ul class="nav-list">
           <li class="nav-item"><a href="#header" class="nav-link active">Home</a></li>
-          <li class="nav-item"><a href="#portfolio" class="nav-link">Works</a></li>
+          <li class="nav-item"><a href="#portfolio" clas6s="nav-link">Works</a></li>
           <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
           <li class="nav-item"><a href="#contacts-social" class="nav-link">About</a></li>
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -42,7 +42,7 @@
 
   </div>
 </header>
-<section class="services">
+<section class="services" id="services">
   <div class="container">
     <div class="services-row">
       <div class="service-card" data-aos="fade-down">
@@ -63,7 +63,7 @@
     </div>
   </div>
 </section>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
   <div class="container">
     <div class="potfolio-title">
       <h2 class="title-1">Portfolio</h2>
@@ -86,7 +86,7 @@
     </div>
   </div>
 </section>
-<footer class="contacts">
+<footer class="contacts" id="contacts">
   <div class="container">
     <div class="contacts-title">
       <h2 class="title-1">Contacts</h2>
@@ -97,7 +97,7 @@
     <div class="contacts-button">
       <a href="mailto:3069603@tut.by" class="btn">Send me message</a>
     </div>
-    <div class="contacts-social">
+    <div class="contacts-social" id="contacts-social">
     <a href="https://www.linkedin.com/in/konstantin-shantsev" class="social-link" title="Linkedin"><span class="social-symbol">Li</span></a>
     <a href="https://t.me/by3069603" class="social-link" title="Telegram"><span class="social-symbol">Tg</span></a>
     <a href="https://www.instagram.com/konstantin.shantsev?igsh=MzN2ZTY5NHN3OWpp&utm_source=qr" class="social-link" title="Instagram"><span class="social-symbol">In</span></a>
@@ -108,6 +108,10 @@
     </div>
   </div>
 </footer>
+<!-- Button "Up" - initially hidden -->
+<div id="scroll-to-top" class="scroll-to-top">
+  <a href="#header" class="btn1">&#8593;</a>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src=./js/main.js></script>
 </body>
